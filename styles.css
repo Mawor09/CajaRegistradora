@@ -18,8 +18,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-input[type="text"],
-input[type="number"],
+select,
 button {
     margin-bottom: 10px;
     display: block;

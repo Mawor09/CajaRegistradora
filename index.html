@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ordenar Comida</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Ordenar Comida</h1>
         <div class="form-container">
-            <label for="comida">Ingrese el nombre del plato:</label>
-            <input type="text" id="comida">
-            <label for="precio">Ingrese el precio del plato:</label>
-            <input type="number" id="precio">
-            <button onclick="agregarComida()">Agregar Plato</button>
-            <button onclick="mostrarOrden()">Mostrar Orden</button>
-            <button onclick="limpiarOrden()">Limpiar Orden</button>
+            <label for="producto">Seleccione un plato:</label>
+            <select id="producto"></select>
+            <button id="agregar-btn">Agregar Plato</button>
+            <button id="mostrar-btn">Mostrar Orden</button>
+            <button id="limpiar-btn">Limpiar Orden</button>
         </div>
         
         <div id="orden-container">
